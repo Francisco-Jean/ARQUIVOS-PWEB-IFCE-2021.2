@@ -59,11 +59,10 @@ div.tt11{
 }
 
 div.texto{
-    text-align: center;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    display: flex;
     margin-top: 25px;
     color: rgb(255, 255, 255);
     font-size: 25px;
