@@ -92,3 +92,64 @@ div.exemplo{
     text-align: center;
     margin-bottom: 100px;
 }
+
+.conteiner{
+    background: white;
+    max-width: 20rem;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px rgb(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btenv{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 100px;
+    margin-inline: 30%;
+    font-size: 20px;
+}
+
+.resp{
+    color: green;
+}
+
+.modos{
+    margin-top: 80px;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1px;
+}
+
+.btc{
+    font-size: 17px;
+    margin-inline: 10px;
+    background-color:rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
